@@ -1447,7 +1447,7 @@
         
         var _0x4d2a = console.log;
         console.log = function() {
-            if (window.location.hostname !== 'onmod.site') {
+            if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
                 document.body.innerHTML = '<h1>Console Access Denied</h1>';
                 return;
             }
