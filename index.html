@@ -1288,27 +1288,35 @@
             return true;
         }
         
-        if (!_0xa1b7()) {
-            return;
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            if (!_0xa1b7()) {
+                return;
+            }
         }
         
         setInterval(function() {
-            if (!_0xa1b7()) {
-                return;
+            if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+                if (!_0xa1b7()) {
+                    return;
+                }
             }
         }, 1000);
         
         var _0x5c8d = window.location;
         Object.defineProperty(window, 'location', {
             get: function() {
-                if (!_0x9f4e()) {
-                    _0x7c8d();
+                if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+                    if (!_0x9f4e()) {
+                        _0x7c8d();
+                    }
                 }
                 return _0x5c8d;
             },
             set: function(val) {
-                if (!_0x9f4e()) {
-                    _0x7c8d();
+                if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+                    if (!_0x9f4e()) {
+                        _0x7c8d();
+                    }
                 }
                 _0x5c8d = val;
             }
@@ -1317,8 +1325,10 @@
         var _0x3f2a = 0;
         setInterval(function() {
             if (new Date().getTime() - _0x3f2a > 100) {
-                if (!_0x9f4e()) {
-                    _0x7c8d();
+                if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+                    if (!_0x9f4e()) {
+                        _0x7c8d();
+                    }
                 }
             }
             _0x3f2a = new Date().getTime();
@@ -1357,15 +1367,19 @@
             return Math.abs(_0x2f9d) > 1000000;
         };
         
-        if (!_0x2e8b() || !_0x6d4f() || !_0x8a1c()) {
-            document.body.innerHTML = '<h1>Access Denied - Unauthorized Domain</h1><p>This content is protected and can only be accessed from onmod.site</p>';
-            window.location.href = 'about:blank';
-            return;
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            if (!_0x2e8b() || !_0x6d4f() || !_0x8a1c()) {
+                document.body.innerHTML = '<h1>Access Denied - Unauthorized Domain</h1><p>This content is protected and can only be accessed from onmod.site</p>';
+                window.location.href = 'about:blank';
+                return;
+            }
         }
         
-        setInterval(_0x2e8b, 500);
-        setInterval(_0x6d4f, 2000);
-        setInterval(_0x8a1c, 3000);
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            setInterval(_0x2e8b, 500);
+            setInterval(_0x6d4f, 2000);
+            setInterval(_0x8a1c, 3000);
+        }
     </script>
     
     <script>
@@ -1373,16 +1387,18 @@
         var _0x4d7e = atob(_0x9b2c);
         var _0x5f8a = window.location.hostname;
         
-        if (_0x5f8a !== _0x4d7e && !_0x5f8a.includes(_0x4d7e)) {
-            try {
-                document.documentElement.remove();
-            } catch (e) {
-                document.body.innerHTML = '';
-            }
-            try {
-                window.location.replace('about:blank');
-            } catch (e) {
-                window.close();
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            if (_0x5f8a !== _0x4d7e && !_0x5f8a.includes(_0x4d7e)) {
+                try {
+                    document.documentElement.remove();
+                } catch (e) {
+                    document.body.innerHTML = '';
+                }
+                try {
+                    window.location.replace('about:blank');
+                } catch (e) {
+                    window.close();
+                }
             }
         }
         
@@ -1397,7 +1413,9 @@
             return true;
         };
         
-        setInterval(_0x3c9d, 1500);
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            setInterval(_0x3c9d, 1500);
+        }
     </script>
     
     <script>
@@ -1413,15 +1431,18 @@
             }
         }
         
-        if (!_0x2f8a) {
-            document.documentElement.innerHTML = '<html><head><title>Access Denied</title></head><body style="background:#000;color:#fff;font-family:Arial;text-align:center;padding:50px;"><h1>🚫 ACCESS DENIED 🚫</h1><p>This content is protected and can only be accessed from the authorized domain.</p><p>Authorized domain: <strong>onmod.site</strong></p><p>Current domain: <strong>' + window.location.hostname + '</strong></p></body></html>';
-            
-            var _0x6b1c = document.getElementsByTagName('script');
-            while (_0x6b1c.length > 0) {
-                _0x6b1c[0].remove();
+
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            if (!_0x2f8a) {
+                document.documentElement.innerHTML = '<html><head><title>Access Denied</title></head><body style="background:#000;color:#fff;font-family:Arial;text-align:center;padding:50px;"><h1>🚫 ACCESS DENIED 🚫</h1><p>This content is protected and can only be accessed from the authorized domain.</p><p>Authorized domain: <strong>onmod.site</strong></p><p>Current domain: <strong>' + window.location.hostname + '</strong></p></body></html>';
+                
+                var _0x6b1c = document.getElementsByTagName('script');
+                while (_0x6b1c.length > 0) {
+                    _0x6b1c[0].remove();
+                }
+                
+                throw new Error('Unauthorized domain access');
             }
-            
-            throw new Error('Unauthorized domain access');
         }
         
         var _0x4d2a = console.log;
@@ -1438,16 +1459,17 @@
             window.top.location.href = window.location.href;
         }
         
-        setInterval(function() {
-            if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
-                document.body.innerHTML = '<h1>Domain Changed - Access Revoked</h1>';
-                window.location.href = 'about:blank';
-            }
-        }, 200);
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            setInterval(function() {
+                if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+                    document.body.innerHTML = '<h1>Domain Changed - Access Revoked</h1>';
+                    window.location.href = 'about:blank';
+                }
+            }, 200);
+        }
     </script>
     
     <script>
-        // Analytics and tracking initialization
         var _0x4f8a = ['dHJhY2tlcg==', 'ZXZlbnQ=', 'c2VuZA==', 'ZGF0YQ==', 'c3RhdHM=', 'YW5hbHl0aWNz', 'bWV0cmlj', 'bG9nZ2Vy', 'Y29uc29sZQ==', 'ZXJyb3I='];
         var _0x2b9c = function() {
             var _0x5d1e = window.location.hostname;
@@ -1459,7 +1481,6 @@
             return true;
         };
         
-        // Performance monitoring
         var _0x8e4d = function() {
             if (!_0x2b9c()) return;
             var _0x3c7a = performance.now();
@@ -1468,7 +1489,6 @@
             }
         };
         
-        // User behavior tracking
         var _0x6f2a = function() {
             if (!_0x2b9c()) return;
             var _0x9d1b = document.documentElement.outerHTML.length;
@@ -1477,12 +1497,12 @@
             }
         };
         
-        // Initialize tracking
-        _0x2b9c();
-        setInterval(_0x8e4d, 2000);
-        setInterval(_0x6f2a, 1500);
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            _0x2b9c();
+            setInterval(_0x8e4d, 2000);
+            setInterval(_0x6f2a, 1500);
+        }
         
-        // Utility functions for page optimization
         var _0x9c3e = function() {
             var _0x4a7b = window.location.hostname;
             var _0x8d2f = atob('b25tb2Quc2l0ZQ==');
@@ -1493,7 +1513,6 @@
             return true;
         };
         
-        // Page validation
         var _0x7b8d = function() {
             if (!_0x9c3e()) return;
             var _0x5e2a = document.querySelectorAll('script');
@@ -1509,11 +1528,11 @@
             }
         };
         
-        // Initialize validation
-        _0x9c3e();
-        setInterval(_0x7b8d, 1000);
+        if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+            _0x9c3e();
+            setInterval(_0x7b8d, 1000);
+        }
         
-        // Check if CPA script loaded properly
         window.addEventListener('load', function() {
             console.log("Page loaded, checking CPA script...");
             setTimeout(() => {
@@ -1522,14 +1541,11 @@
             }, 2000);
         });
 
-        // --- Configuration ---
         const CPA_LOCKER_SCRIPT = function() {
-            // Redirect to the CPA locker URL
             console.log("Redirecting to CPA locker...");
             window.location.href = "https://installchecker.site/cl/i/m521m8";
         };
 
-        // --- Active Users Count ---
         function randomUsers() {
             return Math.floor(Math.random() * (450 - 150 + 1)) + 150;
         }
@@ -1539,7 +1555,6 @@
         updateActiveUsers();
         setInterval(updateActiveUsers, 4500);
 
-        // --- Live Claim Notifications ---
         const avatars = [
             'https://tr.rbxcdn.com/30DAY-AvatarHeadshot-F886F6A2F04884003042CB1B133FF85E-Png/150/150/AvatarHeadshot/Webp/noFilter',
             'https://tr.rbxcdn.com/30DAY-AvatarHeadshot-DB22938CEDD6F835BDC83517F22CF558-Png/150/150/AvatarHeadshot/Webp/noFilter',
@@ -1608,19 +1623,16 @@
             'Richy_544'
         ];
 
-        // User country data - will be populated with IP API
         let userCountry = '';
         let userCountryCode = '';
         let countryUsers = {};
         
-        // Global data object for country information
         const globalDatas = { 
             country_code: null, 
             country_name: null, 
             flagUrl: null, 
         }; 
         
-        // Fetch user's IP address and then country information
         $.getJSON("https://api.ipify.org?format=json", function(data) { 
             var ipAddress = data.ip; 
             console.log('IP Address detected:', ipAddress);
@@ -1632,11 +1644,9 @@
                 globalDatas.country_name = response.country_name; 
                 globalDatas.flagUrl = "https://flagcdn.com/w320/" + response.country_code.toLowerCase() + ".png"; 
                 
-                // Also update the existing variables for compatibility
                 userCountry = response.country_name;
                 userCountryCode = response.country_code.toLowerCase();
                 
-                // Initialize country users object with random usernames
                 const shuffledUsernames = [...usernames].sort(() => 0.5 - Math.random());
                 countryUsers[userCountryCode] = shuffledUsernames.slice(0, 10); // Assign 10 random users to user's country
                 
@@ -1644,7 +1654,6 @@
                 console.log('Flag URL:', globalDatas.flagUrl);
             }).fail(function(error) {
                 console.error('Error fetching country data from ipapi.co:', error);
-                // Try alternative API
                 $.getJSON("https://ipinfo.io/" + ipAddress + "/json", function(altResponse) {
                     console.log('Alternative API response:', altResponse);
                     globalDatas.country_code = altResponse.country; 
@@ -1657,24 +1666,22 @@
                     console.log('User country detected (alternative):', userCountry, 'Code:', userCountryCode);
                 }).fail(function(altError) {
                     console.error('Both APIs failed:', altError);
-                    // Default to Morocco for testing
-                    userCountry = 'Morocco';
+                    userCountry = 'usa';
                     userCountryCode = 'ma';
-                    globalDatas.country_code = 'MA';
-                    globalDatas.country_name = 'Morocco';
-                    globalDatas.flagUrl = 'https://flagcdn.com/w320/ma.png';
-                    console.log('Using default Morocco flag');
+                    globalDatas.country_code = 'usa';
+                    globalDatas.country_name = 'usa';
+                    globalDatas.flagUrl = 'https://flagcdn.com/w320/us.png';
+                    console.log('Using default usa flag');
                 });
             }); 
         }).fail(function(error) {
             console.error('Error fetching IP address:', error);
-            // Default to Morocco for testing
-            userCountry = 'Morocco';
+            userCountry = 'usa';
             userCountryCode = 'ma';
-            globalDatas.country_code = 'MA';
-            globalDatas.country_name = 'Morocco';
-            globalDatas.flagUrl = 'https://flagcdn.com/w320/ma.png';
-            console.log('Using default Morocco flag due to IP fetch error');
+            globalDatas.country_code = 'US';
+            globalDatas.country_name = 'USA';
+            globalDatas.flagUrl = 'https://flagcdn.com/w320/us.png';
+            console.log('Using default usa flag due to IP fetch error');
         });
 
         let notificationProfiles = []; // Will be populated with {username, avatarUrl, country, flagUrl}
@@ -1683,7 +1690,6 @@
         let popupOpen = false;
 
         function initializeNotificationProfiles() {
-            // Create notification profiles with the new avatars and usernames
             notificationProfiles = usernames.map((username, index) => ({
                 username: username,
                 avatarUrl: avatars[index % avatars.length], // Cycle through avatars
@@ -1730,7 +1736,6 @@
             $(".cliameds").fadeOut();
         }
         
-        // --- Popup Logic ---
         const showPurchasePopup = (itemName, itemImage) => {
             popupOpen = true;
             stopNotifications();
