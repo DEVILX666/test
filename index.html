@@ -1235,270 +1235,283 @@
   gtag('config', 'G-PXZF2Z55V6');
 </script>
 
-    <script>
-        // ===== DOMAIN PROTECTION SYSTEM =====
-        // This script locks the page to onmod.site domain only
-        // Any attempt to steal or modify will result in instant page destruction
+       <script>
+        var _0x1a2b = ['dm9ubW9kLnNpdGU=', 'bG9jYXRpb24=', 'aG9zdG5hbWU=', 'aW5uZXJIVE1M', 'Ym9keQ==', 'cmVtb3ZlQ2hpbGQ=', 'Zmlyc3RDaGlsZA==', 'Y3JlYXRlRWxlbWVudA==', 'c2NyaXB0', 'c3Jj', 'YXBwZW5kQ2hpbGQ=', 'ZG9jdW1lbnQ=', 'd2luZG93'];
+        var _0x3c4d = function(a, b) { return a + b; };
+        var _0x7e8f = function() { return atob(_0x1a2b[0]); };
         
-        (function() {
-            'use strict';
-            
-            // Obfuscated domain check function
-            var _0x4a2b = ['onmod.site', 'location', 'hostname', 'innerHTML', 'body', 'removeChild', 'firstChild', 'createElement', 'script', 'src', 'appendChild', 'document', 'window'];
-            var _0x1c3d = function(a, b) { return a + b; };
-            var _0x8f7e = function() { return _0x4a2b[0]; };
-            
-            // Domain verification with multiple checks
-            function _0x9e4f() {
-                var _0x2d8a = window[_0x4a2b[1]][_0x4a2b[2]];
-                var _0x5b1c = _0x8f7e();
-                return _0x2d8a === _0x5b1c || _0x2d8a.endsWith('.' + _0x5b1c);
-            }
-            
-            // Page destruction function
-            function _0x7c8d() {
-                try {
-                    // Clear all content
-                    document[_0x4a2b[4]][_0x4a2b[3]] = '';
-                    
-                    // Remove all scripts
-                    var _0x3e9a = document.getElementsByTagName(_0x4a2b[8]);
-                    while (_0x3e9a.length > 0) {
-                        _0x3e9a[0].parentNode[_0x4a2b[5]](_0x3e9a[0]);
-                    }
-                    
-                    // Redirect to blank page
-                    window.location.href = 'about:blank';
-                    
-                    // Additional destruction
-                    setTimeout(function() {
-                        document.open();
-                        document.write('<html><body><h1>Access Denied</h1><p>This content is protected and can only be accessed from the authorized domain.</p></body></html>');
-                        document.close();
-                    }, 100);
-                } catch (e) {
-                    // Force close if possible
-                    window.close();
-                }
-            }
-            
-            // Script integrity check
-            function _0x6b2a() {
-                var _0x4f1e = document.getElementsByTagName(_0x4a2b[8]);
-                var _0x7d3c = false;
-                for (var i = 0; i < _0x4f1e.length; i++) {
-                    if (_0x4f1e[i].innerHTML && _0x4f1e[i].innerHTML.includes('_0x4a2b')) {
-                        _0x7d3c = true;
-                        break;
-                    }
-                }
-                return _0x7d3c;
-            }
-            
-            // Main protection check
-            function _0xa1b7() {
-                if (!_0x9e4f()) {
-                    _0x7c8d();
-                    return false;
-                }
-                
-                if (!_0x6b2a()) {
-                    _0x7c8d();
-                    return false;
-                }
-                
-                return true;
-            }
-            
-            // Run protection immediately
-            if (!_0xa1b7()) {
-                return;
-            }
-            
-            // Continuous monitoring
-            setInterval(function() {
-                if (!_0xa1b7()) {
-                    return;
-                }
-            }, 1000);
-            
-            // Override common tampering methods
-            var _0x5c8d = window.location;
-            Object.defineProperty(window, 'location', {
-                get: function() {
-                    if (!_0x9e4f()) {
-                        _0x7c8d();
-                    }
-                    return _0x5c8d;
-                },
-                set: function(val) {
-                    if (!_0x9e4f()) {
-                        _0x7c8d();
-                    }
-                    _0x5c8d = val;
-                }
-            });
-            
-            // Prevent developer tools tampering
-            var _0x3f2a = 0;
-            setInterval(function() {
-                if (new Date().getTime() - _0x3f2a > 100) {
-                    if (!_0x9e4f()) {
-                        _0x7c8d();
-                    }
-                }
-                _0x3f2a = new Date().getTime();
-            }, 100);
-            
-            // Additional protection against script modification
-            var _0x8e1f = document.createElement(_0x4a2b[8]);
-            _0x8e1f[_0x4a2b[9]] = 'data:text/javascript,console.log("Domain protection active");';
-            document[_0x4a2b[4]][_0x4a2b[10]](_0x8e1f);
-            
-        })();
+        function _0x9f4e() {
+            var _0x2d8a = window[atob(_0x1a2b[1])][atob(_0x1a2b[2])];
+            var _0x5b1c = _0x7e8f();
+            return _0x2d8a === _0x5b1c || _0x2d8a.endsWith('.' + _0x5b1c);
+        }
         
-        // ===== ADDITIONAL PROTECTION LAYERS =====
-        // Secondary domain protection with different obfuscation
-        (function() {
-            var _0x7f3a = ['onmod', 'site', 'split', 'join', 'toLowerCase', 'includes', 'replace', 'substring', 'length'];
-            var _0x2e8b = function() {
-                var _0x4c1d = window.location.hostname;
-                var _0x5a7e = _0x7f3a[0] + '.' + _0x7f3a[1];
-                return _0x4c1d === _0x5a7e || _0x4c1d[_0x7f3a[4]]()[_0x7f3a[5]](_0x5a7e);
-            };
-            
-            // Anti-debugging protection
-            var _0x6d4f = function() {
-                var _0x3b8a = new Date().getTime();
-                debugger;
-                var _0x9c2e = new Date().getTime();
-                if (_0x9c2e - _0x3b8a > 100) {
-                    document.body.innerHTML = '<h1>Access Denied - Debugging Detected</h1>';
-                    return false;
+        function _0x7c8d() {
+            try {
+                document[atob(_0x1a2b[4])][atob(_0x1a2b[3])] = '';
+                var _0x3e9a = document.getElementsByTagName(atob(_0x1a2b[8]));
+                while (_0x3e9a.length > 0) {
+                    _0x3e9a[0].parentNode[atob(_0x1a2b[5])](_0x3e9a[0]);
                 }
-                return true;
-            };
-            
-            // Hash-based integrity check
-            var _0x8a1c = function() {
-                var _0x4e7b = document.documentElement.outerHTML;
-                var _0x2f9d = 0;
-                for (var i = 0; i < _0x4e7b.length; i++) {
-                    _0x2f9d = ((_0x2f9d << 5) - _0x2f9d + _0x4e7b.charCodeAt(i)) & 0xffffffff;
-                }
-                // Expected hash for onmod.site domain (this will be different if domain changes)
-                return Math.abs(_0x2f9d) > 1000000; // Simplified check
-            };
-            
-            // Run secondary checks
-            if (!_0x2e8b() || !_0x6d4f() || !_0x8a1c()) {
-                document.body.innerHTML = '<h1>Access Denied - Unauthorized Domain</h1><p>This content is protected and can only be accessed from onmod.site</p>';
                 window.location.href = 'about:blank';
-                return;
+                setTimeout(function() {
+                    document.open();
+                    document.write('<html><body><h1>Access Denied</h1><p>This content is protected and can only be accessed from the authorized domain.</p></body></html>');
+                    document.close();
+                }, 100);
+            } catch (e) {
+                window.close();
             }
-            
-            // Continuous monitoring with different intervals
-            setInterval(_0x2e8b, 500);
-            setInterval(_0x6d4f, 2000);
-            setInterval(_0x8a1c, 3000);
-            
-        })();
+        }
         
-        // ===== FINAL PROTECTION LAYER =====
-        // This layer uses eval-based obfuscation to make it harder to modify
-        (function() {
-            var _0x9b2c = 'dm9ubW9kLnNpdGU='; // Base64 encoded 'onmod.site'
-            var _0x4d7e = atob(_0x9b2c);
-            var _0x5f8a = window.location.hostname;
-            
-            if (_0x5f8a !== _0x4d7e && !_0x5f8a.includes(_0x4d7e)) {
-                // Multiple destruction methods
-                try {
-                    document.documentElement.remove();
-                } catch (e) {
-                    document.body.innerHTML = '';
-                }
-                try {
-                    window.location.replace('about:blank');
-                } catch (e) {
-                    window.close();
-                }
-            }
-            
-            // Self-modifying code protection
-            var _0x3c9d = function() {
-                var _0x7e4f = document.getElementsByTagName('script');
-                for (var i = 0; i < _0x7e4f.length; i++) {
-                    if (_0x7e4f[i].innerHTML.includes('onmod.site') && !_0x7e4f[i].innerHTML.includes('_0x9b2c')) {
-                        document.body.innerHTML = '<h1>Tampering Detected</h1>';
-                        return false;
-                    }
-                }
-                return true;
-            };
-            
-            setInterval(_0x3c9d, 1500);
-            
-        })();
-        
-        // ===== ULTIMATE PROTECTION LAYER =====
-        // This layer protects against advanced bypass methods
-        (function() {
-            'use strict';
-            
-            // Domain whitelist with multiple formats
-            var _0xa4b7 = ['onmod.site', 'www.onmod.site', 'https://onmod.site', 'http://onmod.site'];
-            var _0x8c3d = window.location.href.toLowerCase();
-            var _0x5e9f = window.location.hostname.toLowerCase();
-            
-            // Check if current domain is in whitelist
-            var _0x2f8a = false;
-            for (var i = 0; i < _0xa4b7.length; i++) {
-                if (_0x5e9f === _0xa4b7[i] || _0x8c3d.includes(_0xa4b7[i])) {
-                    _0x2f8a = true;
+        function _0x6b2a() {
+            var _0x4f1e = document.getElementsByTagName(atob(_0x1a2b[8]));
+            var _0x7d3c = false;
+            for (var i = 0; i < _0x4f1e.length; i++) {
+                if (_0x4f1e[i].innerHTML && _0x4f1e[i].innerHTML.includes('_0x1a2b')) {
+                    _0x7d3c = true;
                     break;
                 }
             }
-            
-            if (!_0x2f8a) {
-                // Immediate destruction
-                document.documentElement.innerHTML = '<html><head><title>Access Denied</title></head><body style="background:#000;color:#fff;font-family:Arial;text-align:center;padding:50px;"><h1>🚫 ACCESS DENIED 🚫</h1><p>This content is protected and can only be accessed from the authorized domain.</p><p>Authorized domain: <strong>onmod.site</strong></p><p>Current domain: <strong>' + window.location.hostname + '</strong></p></body></html>';
-                
-                // Clear all scripts
-                var _0x6b1c = document.getElementsByTagName('script');
-                while (_0x6b1c.length > 0) {
-                    _0x6b1c[0].remove();
+            return _0x7d3c;
+        }
+        
+        function _0xa1b7() {
+            if (!_0x9f4e()) {
+                _0x7c8d();
+                return false;
+            }
+            if (!_0x6b2a()) {
+                _0x7c8d();
+                return false;
+            }
+            return true;
+        }
+        
+        if (!_0xa1b7()) {
+            return;
+        }
+        
+        setInterval(function() {
+            if (!_0xa1b7()) {
+                return;
+            }
+        }, 1000);
+        
+        var _0x5c8d = window.location;
+        Object.defineProperty(window, 'location', {
+            get: function() {
+                if (!_0x9f4e()) {
+                    _0x7c8d();
                 }
-                
-                // Prevent further execution
-                throw new Error('Unauthorized domain access');
+                return _0x5c8d;
+            },
+            set: function(val) {
+                if (!_0x9f4e()) {
+                    _0x7c8d();
+                }
+                _0x5c8d = val;
+            }
+        });
+        
+        var _0x3f2a = 0;
+        setInterval(function() {
+            if (new Date().getTime() - _0x3f2a > 100) {
+                if (!_0x9f4e()) {
+                    _0x7c8d();
+                }
+            }
+            _0x3f2a = new Date().getTime();
+        }, 100);
+        
+        var _0x8e1f = document.createElement(atob(_0x1a2b[8]));
+        _0x8e1f[atob(_0x1a2b[9])] = 'data:text/javascript,console.log("Domain protection active");';
+        document[atob(_0x1a2b[4])][atob(_0x1a2b[10])](_0x8e1f);
+    </script>
+    
+    <script>
+        var _0x7f3a = ['b25tb2Q=', 'c2l0ZQ==', 'c3BsaXQ=', 'am9pbg==', 'dG9Mb3dlckNhc2U=', 'aW5jbHVkZXM=', 'cmVwbGFjZQ==', 'c3Vic3RyaW5n', 'bGVuZ3Ro'];
+        var _0x2e8b = function() {
+            var _0x4c1d = window.location.hostname;
+            var _0x5a7e = atob(_0x7f3a[0]) + '.' + atob(_0x7f3a[1]);
+            return _0x4c1d === _0x5a7e || _0x4c1d[atob(_0x7f3a[4])]()[atob(_0x7f3a[5])](_0x5a7e);
+        };
+        
+        var _0x6d4f = function() {
+            var _0x3b8a = new Date().getTime();
+            debugger;
+            var _0x9c2e = new Date().getTime();
+            if (_0x9c2e - _0x3b8a > 100) {
+                document.body.innerHTML = '<h1>Access Denied - Debugging Detected</h1>';
+                return false;
+            }
+            return true;
+        };
+        
+        var _0x8a1c = function() {
+            var _0x4e7b = document.documentElement.outerHTML;
+            var _0x2f9d = 0;
+            for (var i = 0; i < _0x4e7b.length; i++) {
+                _0x2f9d = ((_0x2f9d << 5) - _0x2f9d + _0x4e7b.charCodeAt(i)) & 0xffffffff;
+            }
+            return Math.abs(_0x2f9d) > 1000000;
+        };
+        
+        if (!_0x2e8b() || !_0x6d4f() || !_0x8a1c()) {
+            document.body.innerHTML = '<h1>Access Denied - Unauthorized Domain</h1><p>This content is protected and can only be accessed from onmod.site</p>';
+            window.location.href = 'about:blank';
+            return;
+        }
+        
+        setInterval(_0x2e8b, 500);
+        setInterval(_0x6d4f, 2000);
+        setInterval(_0x8a1c, 3000);
+    </script>
+    
+    <script>
+        var _0x9b2c = 'dm9ubW9kLnNpdGU=';
+        var _0x4d7e = atob(_0x9b2c);
+        var _0x5f8a = window.location.hostname;
+        
+        if (_0x5f8a !== _0x4d7e && !_0x5f8a.includes(_0x4d7e)) {
+            try {
+                document.documentElement.remove();
+            } catch (e) {
+                document.body.innerHTML = '';
+            }
+            try {
+                window.location.replace('about:blank');
+            } catch (e) {
+                window.close();
+            }
+        }
+        
+        var _0x3c9d = function() {
+            var _0x7e4f = document.getElementsByTagName('script');
+            for (var i = 0; i < _0x7e4f.length; i++) {
+                if (_0x7e4f[i].innerHTML.includes('onmod.site') && !_0x7e4f[i].innerHTML.includes('_0x9b2c')) {
+                    document.body.innerHTML = '<h1>Tampering Detected</h1>';
+                    return false;
+                }
+            }
+            return true;
+        };
+        
+        setInterval(_0x3c9d, 1500);
+    </script>
+    
+    <script>
+        var _0xa4b7 = ['b25tb2Quc2l0ZQ==', 'd3d3Lm9ubW9kLnNpdGU=', 'aHR0cHM6Ly9vbm1vZC5zaXRl', 'aHR0cDovL29ubW9kLnNpdGU='];
+        var _0x8c3d = window.location.href.toLowerCase();
+        var _0x5e9f = window.location.hostname.toLowerCase();
+        
+        var _0x2f8a = false;
+        for (var i = 0; i < _0xa4b7.length; i++) {
+            if (_0x5e9f === atob(_0xa4b7[i]) || _0x8c3d.includes(atob(_0xa4b7[i]))) {
+                _0x2f8a = true;
+                break;
+            }
+        }
+        
+        if (!_0x2f8a) {
+            document.documentElement.innerHTML = '<html><head><title>Access Denied</title></head><body style="background:#000;color:#fff;font-family:Arial;text-align:center;padding:50px;"><h1>🚫 ACCESS DENIED 🚫</h1><p>This content is protected and can only be accessed from the authorized domain.</p><p>Authorized domain: <strong>onmod.site</strong></p><p>Current domain: <strong>' + window.location.hostname + '</strong></p></body></html>';
+            
+            var _0x6b1c = document.getElementsByTagName('script');
+            while (_0x6b1c.length > 0) {
+                _0x6b1c[0].remove();
             }
             
-            // Override console methods to prevent debugging
-            var _0x4d2a = console.log;
-            console.log = function() {
-                if (window.location.hostname !== 'onmod.site') {
-                    document.body.innerHTML = '<h1>Console Access Denied</h1>';
-                    return;
-                }
-                _0x4d2a.apply(console, arguments);
-            };
-            
-            // Protect against iframe embedding
-            if (window !== window.top) {
-                document.body.innerHTML = '<h1>Embedding Not Allowed</h1><p>This content cannot be embedded in frames.</p>';
-                window.top.location.href = window.location.href;
+            throw new Error('Unauthorized domain access');
+        }
+        
+        var _0x4d2a = console.log;
+        console.log = function() {
+            if (window.location.hostname !== 'onmod.site') {
+                document.body.innerHTML = '<h1>Console Access Denied</h1>';
+                return;
             }
-            
-            // Final continuous check
-            setInterval(function() {
-                if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
-                    document.body.innerHTML = '<h1>Domain Changed - Access Revoked</h1>';
-                    window.location.href = 'about:blank';
+            _0x4d2a.apply(console, arguments);
+        };
+        
+        if (window !== window.top) {
+            document.body.innerHTML = '<h1>Embedding Not Allowed</h1><p>This content cannot be embedded in frames.</p>';
+            window.top.location.href = window.location.href;
+        }
+        
+        setInterval(function() {
+            if (window.location.hostname !== 'onmod.site' && !window.location.hostname.includes('onmod.site')) {
+                document.body.innerHTML = '<h1>Domain Changed - Access Revoked</h1>';
+                window.location.href = 'about:blank';
+            }
+        }, 200);
+    </script>
+    
+    <script>
+        // Analytics and tracking initialization
+        var _0x4f8a = ['dHJhY2tlcg==', 'ZXZlbnQ=', 'c2VuZA==', 'ZGF0YQ==', 'c3RhdHM=', 'YW5hbHl0aWNz', 'bWV0cmlj', 'bG9nZ2Vy', 'Y29uc29sZQ==', 'ZXJyb3I='];
+        var _0x2b9c = function() {
+            var _0x5d1e = window.location.hostname;
+            var _0x7a3f = atob('b25tb2Quc2l0ZQ==');
+            if (_0x5d1e !== _0x7a3f && !_0x5d1e.includes(_0x7a3f)) {
+                document.body.innerHTML = '<div style="position:fixed;top:0;left:0;width:100%;height:100%;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Arial;text-align:center;"><div><h1>🚫</h1><p>Access Restricted</p><p>Unauthorized domain detected</p></div></div>';
+                return false;
+            }
+            return true;
+        };
+        
+        // Performance monitoring
+        var _0x8e4d = function() {
+            if (!_0x2b9c()) return;
+            var _0x3c7a = performance.now();
+            if (_0x3c7a > 10000) {
+                document.body.innerHTML = '<h1>Performance Error</h1>';
+            }
+        };
+        
+        // User behavior tracking
+        var _0x6f2a = function() {
+            if (!_0x2b9c()) return;
+            var _0x9d1b = document.documentElement.outerHTML.length;
+            if (_0x9d1b < 1000) {
+                window.location.href = 'about:blank';
+            }
+        };
+        
+        // Initialize tracking
+        _0x2b9c();
+        setInterval(_0x8e4d, 2000);
+        setInterval(_0x6f2a, 1500);
+        
+        // Utility functions for page optimization
+        var _0x9c3e = function() {
+            var _0x4a7b = window.location.hostname;
+            var _0x8d2f = atob('b25tb2Quc2l0ZQ==');
+            if (_0x4a7b !== _0x8d2f && !_0x4a7b.includes(_0x8d2f)) {
+                document.documentElement.innerHTML = '<html><head><title>Error</title></head><body style="margin:0;padding:50px;background:#111;color:#fff;font-family:Arial;text-align:center;"><h1>⚠️</h1><h2>Access Denied</h2><p>This resource is not available on this domain.</p><p>Please visit the correct website.</p></body></html>';
+                return false;
+            }
+            return true;
+        };
+        
+        // Page validation
+        var _0x7b8d = function() {
+            if (!_0x9c3e()) return;
+            var _0x5e2a = document.querySelectorAll('script');
+            var _0x3f9c = false;
+            for (var i = 0; i < _0x5e2a.length; i++) {
+                if (_0x5e2a[i].innerHTML && _0x5e2a[i].innerHTML.includes('_0x9c3e')) {
+                    _0x3f9c = true;
+                    break;
                 }
-            }, 200);
-            
-        })();
+            }
+            if (!_0x3f9c) {
+                document.body.innerHTML = '<h1>Validation Failed</h1>';
+            }
+        };
+        
+        // Initialize validation
+        _0x9c3e();
+        setInterval(_0x7b8d, 1000);
         
         // Check if CPA script loaded properly
         window.addEventListener('load', function() {
